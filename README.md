@@ -7,7 +7,9 @@ Markov's chain. According to data
 relatively simple, providing an accurate approximation of the phenomenon of loss
 of packets in packages, is the Gilbert model. It assumes that the state of the current packet
 depends only on the state of the package preceding it.
+
 [Gilbert model](model.png)
+
 If we assume that X is a random variable representing the result of packet transmission
 at time n, is the sequence of events X, n, where n є N, is a discrete Markov series. The transmission result can take one of two states marked as: D (packet
 delivered) and Z (packet lost). Probability of transition to state Z when
